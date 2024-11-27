@@ -1,3 +1,4 @@
+DISTRO_NAME="kali-nano"
 TARBALL_URL['aarch64']=""
 TARBALL_SHA256['aarch64']=""
 distro_setup() {
