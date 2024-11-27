@@ -1,3 +1,4 @@
+DISTRO_NAME="kali-lite"
 TARBALL_URL['aarch64']="https://images.linuxcontainers.org/images/kali/current/arm64/default/20241126_17%3A14/rootfs.tar.xz"
 TARBALL_SHA256['aarch64']="4a3bed0ac847eb6404ec9cf5d627c16361dba3ea8dbf33a5bab2974f0836850f"
 distro_setup() {
