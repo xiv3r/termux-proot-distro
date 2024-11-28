@@ -5,8 +5,6 @@ apt install -y proot-distro
 mkdir -p $PREFIX/etc/proot-backup
 ###
 mv $PREFIX/etc/proot-distro/*.sh $PREFIX/etc/proot-backup/
-### Kali Lite
-wget -O $PREFIX/etc/proot-distro/kali-lite.sh https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/installer/kali-lite.sh
 ### Kali Nano
 wget -O $PREFIX/etc/proot-distro/kali-nano.sh https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/installer/kali-nano.sh
 ### Kali Minimal
