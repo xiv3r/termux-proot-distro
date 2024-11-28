@@ -1,7 +1,7 @@
 DISTRO_NAME="BlackArch"
 DISTRO_COMMENT="Stable Release"
 TARBALL_URL['aarch64']="http://fl.us.mirror.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz"
-TARBALL_SHA256['aarch64']="7e87d551845aedae5a111d1fdcc2f5a69b0805f365244f3fab3fe67cd4114f00"
+TARBALL_SHA256['aarch64']="43767c1fe8abaddff240395b75aea03919b7d33ab1bbca3ae0c2f3839527ad19"
 
 distro_setup() {
         # Fix environment variables on login or su.
