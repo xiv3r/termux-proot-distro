@@ -1,4 +1,4 @@
-<img src="https://github.com/xiv3r/termux-proot-distro/blob/main/installer/proot.png">
+<img src="https://github.com/xiv3r/termux-proot-distro/blob/main/installer/kali-proot.png">
 
 # Auto Install
 ```sh
