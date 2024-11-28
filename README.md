@@ -15,7 +15,5 @@ echo "proot-distro login kali-minimal" >> $PREFIX/etc/bash.bashrc
 > - proot-distro login balckarch
 > - execute the cmd
 ```sh
-pacman -Syyu && pacman -S curl && curl -O https://blackarch.org/strap.sh
-chmod +x strap.sh
-sudo ./strap.sh
+pacman -Syyu && pacman -S curl && curl -O https://blackarch.org/strap.sh && chmod +x strap.sh && sudo ./strap.sh
 ```
