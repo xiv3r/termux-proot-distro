@@ -1,4 +1,4 @@
 DISTRO_NAME="kali-minimal"
 DISTRO_COMMENT="Kali Minimal Release"
 TARBALL_URL['aarch64']="https://github.com/xiv3r/termux-proot-distro/releases/download/rootfs/kali-arm64-minimal.tar.xz"
-TARBALL_SHA256['aarch64']="c49fab64df4b427d240c0af078cca4a58ed1db6c66a321d5f3ab479007a64b1f"
+TARBALL_SHA256['aarch64']="408dc56550c1df9e36b5fc98aebb45528d4b377deb097a291f7b65bc5a624f7e""
