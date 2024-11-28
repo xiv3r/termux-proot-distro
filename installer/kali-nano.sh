@@ -1,4 +1,4 @@
 DISTRO_NAME="kali-nano"
 DISTRO_COMMENT="Kali Nano Release"
 TARBALL_URL['aarch64']="https://github.com/xiv3r/termux-proot-distro/releases/download/rootfs/kali-rolling_arm64-rootfs-nano.tar.xz"
-TARBALL_SHA256['aarch64']="a1624e4bb2423dee6e9806455dc963a32d6cbbcbe2d4ac008826d0fd7fe1e773"
+TARBALL_SHA256['aarch64']="c49fab64df4b427d240c0af078cca4a58ed1db6c66a321d5f3ab479007a64b1f""
