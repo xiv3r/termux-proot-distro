@@ -6,7 +6,7 @@ termux-setup-storage && apt update && apt upgrade -y && apt install wget -y && w
 ```
 
 ### Auto login
-> replace the name `kali-minimal` to your distro name
+> - replace the name `kali-minimal` to your distro name
 ```sh
 echo "proot-distro login kali-minimal" >> $PREFIX/etc/bash.bashrc
 ```
