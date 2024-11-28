@@ -1,5 +1,4 @@
 DISTRO_NAME="BlackArch"
-DISTRO_COMMENT="BlackArch Stable Release"
 TARBALL_URL['aarch64']="http://fl.us.mirror.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz"
 TARBALL_SHA256['aarch64']="43767c1fe8abaddff240395b75aea03919b7d33ab1bbca3ae0c2f3839527ad19"
 
