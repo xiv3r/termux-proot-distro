@@ -13,14 +13,8 @@ wget -O $PREFIX/etc/proot-distro/kali-nano.sh https://raw.githubusercontent.com/
 wget -O $PREFIX/etc/proot-distro/kali-minimal.sh https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/installer/kali-minimal.sh
 ### Kali Full
 wget -O $PREFIX/etc/proot-distro/kali-full.sh https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/installer/kali-full.sh
-### Debian
-wget -O $PREFIX/etc/proot-distro/debian.sh https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/installer/debian.sh
-### Ubuntu
-wget -O $PREFIX/etc/proot-distro/ubuntu.sh https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/installer/ubuntu.sh
 ### Blackarch
 wget -O $PREFIX/etc/proot-distro/blackarch.sh https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/installer/blackarch.sh
-###
-
 ###
 chmod a+x $PREFIX/etc/proot-distro/*.sh
 ###
