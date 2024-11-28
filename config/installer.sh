@@ -1,6 +1,10 @@
 #!/bin/sh
 
 apt install -y proot-distro 
+###
+mkdir -p $PREFIX/etc/proot-distro/proot
+###
+mv $PREFIX/etc/proot-distro/* $PREFIX/etc/proot-distro/proot/
 ### Kali Lite
 wget -O $PREFIX/etc/proot-distro/kali-lite.sh https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/installer/kali-lite.sh
 ### Kali Nano
