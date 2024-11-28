@@ -1,5 +1,5 @@
 DISTRO_NAME="kali-minimal"
-DISTRO_COMMENT="kali minimal released"
+DISTRO_COMMENT="Kali Minimal Release"
 TARBALL_URL['aarch64']="https://old.kali.org/nethunter-images/kali-2024.3/rootfs/kali-nethunter-rootfs-minimal-arm64.tar.xz"
 TARBALL_SHA256['aarch64']=""
 distro_setup() {
