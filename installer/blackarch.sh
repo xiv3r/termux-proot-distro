@@ -1,6 +1,6 @@
 DISTRO_NAME="BlackArch"
 TARBALL_URL['aarch64']="https://github.com/xiv3r/termux-proot-distro/releases/download/rootfs/archlinux-aarch64-pd-v4.6.0.tar.xz"
-TARBALL_SHA256['aarch64']="43767c1fe8abaddff240395b75aea03919b7d33ab1bbca3ae0c2f3839527ad19"
+TARBALL_SHA256['aarch64']="7e87d551845aedae5a111d1fdcc2f5a69b0805f365244f3fab3fe67cd4114f00"
 
 distro_setup() {
         # Fix environment variables on login or su.
