@@ -14,7 +14,7 @@ termux-setup-storage && apt update && apt upgrade -y && apt install proot-distro
 ```sh
 apt update && apt upgrade -y && apt install wget -y && wget -O .zshrc https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/.zshrc && source .zshrc
 ```
-<img src="https://github.com/xiv3r/termux-proot-distro/blob/main/config/kalinh.png">
+<img src="https://github.com/xiv3r/termux-proot-distro/blob/main/config/kalimin.png">
 <br>
 <br>
 
