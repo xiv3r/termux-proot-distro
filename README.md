@@ -1,5 +1,4 @@
-<p align="center"> 👁️  👁️ </p>
-<p align="center"><img src="https://profile-counter.glitch.me/xiv3r/count.svg" /></p>
+<p align="center"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fxiv3r%2Ftermux-proot-distro&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=%F0%9F%91%81%EF%B8%8F+++%F0%9F%91%81%EF%B8%8F&edge_flat=false">
 
 <h1 align="center">Kali and BlackArch in Proot-Distro </h1>
 
