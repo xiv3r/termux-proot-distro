@@ -36,10 +36,10 @@ apt update && apt upgrade -y && apt install wget -y && wget -O /etc/bash.bashrc 
 > - proot-distro login debian
 > - execute the command below
 ```sh
-termux-setup-storage && apt update && apt upgrade -y && apt install proot-distro wget -y && echo "clear && proot-distro login debian" >> $PREFIX/etc/bash.bashrc && wget -qO- https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/installer/kali-deb.sh | sh && proot-distro install debian && proot-distro login debian 
+termux-setup-storage && apt update && apt upgrade -y && apt install proot-distro wget -y && echo "clear && proot-distro login debian" >> $PREFIX/etc/bash.bashrc && proot-distro install debian && proot-distro login debian 
 ```
 ```sh
-apt update && apt upgrade -y && apt install wget -y && wget -O /etc/bash.bashrc https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/kali-deb.bashrc && source /etc/bash.bashrc
+apt update && apt upgrade -y && apt install wget -y && wget -O /etc/bash.bashrc https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/kali-deb.bashrc && source /etc/bash.bashrc && wget -qO- https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/installer/kali-deb.sh | sh
 ```
 
 <br>
