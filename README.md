@@ -14,6 +14,10 @@ termux-setup-storage && apt update && apt upgrade -y && apt install proot-distro
 ```sh
 apt update && apt upgrade -y && apt install wget -y && wget -O .zshrc https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/.zshrc && source .zshrc
 ```
+<img src="https://github.com/xiv3r/termux-proot-distro/blob/main/config/kalinh.png">
+<br>
+<br>
+
 # Install Kali Nano
 > - proot-distro login kali-nano
 > - execute the command
@@ -25,6 +29,8 @@ termux-setup-storage && apt update && apt upgrade -y && apt install proot-distro
 apt update && apt upgrade -y && apt install wget -y && wget -O /etc/bash.bashrc https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/bash.bashrc && source ~/etc/bash.bashrc
 ```
 <img src="https://github.com/xiv3r/termux-proot-distro/blob/main/config/kalinh.png">
+<br>
+<br>
 
 ## Install BlackArch
 > - proot-distro login balckarch
