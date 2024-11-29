@@ -32,7 +32,7 @@ apt update && apt upgrade -y && apt install wget -y && wget -O /etc/bash.bashrc 
 <br>
 <br>
 
-## Install BlackArch
+# Install BlackArch
 > - proot-distro login balckarch
 > - execute the command
 ### Auto Install
