@@ -40,5 +40,5 @@ apt update && apt upgrade -y && apt install wget -y && wget -O /etc/bash.bashrc 
 termux-setup-storage && apt update && apt upgrade -y && apt install proot-distro wget -y &&  echo "clear && proot-distro login blackarch" >> $PREFIX/etc/bash.bashrc && wget -qO- https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/installer.sh | sh && proot-distro install blackarch && proot-distro login blackarch
 ```
 ```sh
-pacman -Syy && pacman -S --noconfirm wget && wget -O /etc/bash.bashrc https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/blackarch.bashrc && source /etc/bash.bashrc && wget https://blackarch.org/strap.sh && chmod +x strap.sh && sh strap.sh && pacman -Sy
+wget -O /etc/bash.bashrc https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/blackarch.bashrc && source /etc/bash.bashrc && wget https://blackarch.org/strap.sh && chmod +x strap.sh && sh strap.sh && pacman -Syyu
 ```
