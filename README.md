@@ -7,7 +7,7 @@
 # Install Kali Minimal
 > - proot-distro login kali-minimal
 > - execute the command
-# Auto Install
+### Auto Install
 ```sh
 termux-setup-storage && apt update && apt upgrade -y && apt install proot-distro wget -y && wget -qO- https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/installer.sh | sh && proot-distro install kali-minimal && proot-distro login kali-minimal
 ```
@@ -17,7 +17,7 @@ apt update && apt upgrade -y && apt install wget -y && wget -O .zshrc https://ra
 # Install Kali Nano
 > - proot-distro login kali-nano
 > - execute the command
-# Auto Install
+### Auto Install
 ```sh
 termux-setup-storage && apt update && apt upgrade -y && apt install proot-distro wget -y && wget -qO- https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/installer.sh | sh && proot-distro install kali-nano && proot-distro login kali-nano
 ```
@@ -29,7 +29,7 @@ apt update && apt upgrade -y && apt install wget -y && wget -O /etc/bash.bashrc 
 ## Install BlackArch
 > - proot-distro login balckarch
 > - execute the command
-# Auto Install
+### Auto Install
 ```sh
 termux-setup-storage && apt update && apt upgrade -y && apt install proot-distro wget -y && wget -qO- https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/installer.sh | sh && proot-distro install blackarch && proot-distro login blackarch
 ```
