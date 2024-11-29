@@ -12,6 +12,7 @@ termux-setup-storage && apt update && apt upgrade -y && apt install wget -y && w
 ```sh
 echo "proot-distro login kali-minimal" >> $PREFIX/etc/bash.bashrc
 ```
+<br>
 
 # After the installation 
 
@@ -27,6 +28,8 @@ apt update && apt upgrade -y && apt install wget -y && wget -O .zshrc https://ra
 ```sh
 apt update && apt upgrade -y && apt install wget -y && wget -O /etc/bash.bashrc https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/bash.bashrc && source ~/etc/bash.bashrc
 ```
+<img src="https://github.com/xiv3r/termux-proot-distro/blob/main/config/kalinh.png">
+
 ## For BlackArch login
 > - proot-distro login balckarch
 > - execute the command 
