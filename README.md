@@ -12,6 +12,9 @@ termux-setup-storage && apt update && apt upgrade -y && apt install wget -y && w
 ```sh
 echo "proot-distro login kali-minimal" >> $PREFIX/etc/bash.bashrc
 ```
+
+# After the installation 
+
 ## For Kali Minimal login
 > - proot-distro login kali-minimal
 > - execute the command
