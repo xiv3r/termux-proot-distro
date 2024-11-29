@@ -12,10 +12,21 @@ termux-setup-storage && apt update && apt upgrade -y && apt install wget -y && w
 ```sh
 echo "proot-distro login kali-minimal" >> $PREFIX/etc/bash.bashrc
 ```
-
-## BlackArch Install 
-> - proot-distro login balckarch
-> - execute the cmd
+## For Kali Minimal login
+> - proot-distro login kali-minimal
+> - execute the command
 ```sh
-pacman -Sy && pacman -S curl -y ; curl -O https://blackarch.org/strap.sh && chmod +x strap.sh && sh strap.sh
+apt update && apt upgrade -y && apt install wget -y && wget -0 ~/.zshrc https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/.zshrc && source ~/.zshrc
+```
+## For Kali Nano login
+> - proot-distro login kali-nano
+> - execute the command
+```sh
+apt update && apt upgrade -y && apt install wget -y && wget -0 ~/etc/bash.bashrc https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/bash.bashrc && source ~/etc/bash.bashrc
+```
+## For BlackArch login
+> - proot-distro login balckarch
+> - execute the command 
+```sh
+pacman -Sy && pacman -S wget && wget -O ~/etc/bash.bashrc https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/blackarch.bashrc && source ~/etc/bash.bashrc && wget https://blackarch.org/strap.sh && chmod +x strap.sh && sh strap.sh && pacman -Sy
 ```
