@@ -1,3 +1,6 @@
+<p align="center"> 👁️  👁️ </p>
+<p align="center"><img src="https://profile-counter.glitch.me/xiv3r/count.svg" /></p>
+
 <h1 align="center">Kali and BlackArch in Proot-Distro </h1>
 
 <p align="center"><img src="https://github.com/xiv3r/termux-proot-distro/blob/main/installer/kali-proot.png">
