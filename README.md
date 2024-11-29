@@ -31,6 +31,13 @@ apt update && apt upgrade -y && apt install wget -y && wget -O /etc/bash.bashrc 
 <p align="center"><img src="https://github.com/xiv3r/termux-proot-distro/blob/main/config/kalinh.png">
 <br>
 <br>
+  
+# Install Kali in Debian
+> - proot-distro login debian
+> - execute the command below
+```sh
+termux-setup-storage && apt update && apt upgrade -y && apt install proot-distro wget -y && echo "clear && proot-distro login debian" >> $PREFIX/etc/bash.bashrc && wget -qO- https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/installer/kali-deb.sh | sh && proot-distro install debian && proot-distro login debian 
+```
 
 # Install BlackArch
 > - proot-distro login balckarch
