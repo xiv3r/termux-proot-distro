@@ -54,7 +54,7 @@ apt update && apt upgrade -y && apt install wget -y && wget -O /etc/bash.bashrc 
 ```sh
 sed -i 's/user=kali/user=xiv3r/' /etc/bash.bashrc && source /etc/bash.bashrc
 ```
-
+<p align="center"><img src="https://github.com/xiv3r/termux-proot-distro/blob/main/config/kali-deb.png">
 <br>
 <br>
 
