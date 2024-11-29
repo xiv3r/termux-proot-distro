@@ -1,6 +1,6 @@
 <h1 align="center">Kali and BlackArch in Proot-Distro </h1>
 
-<img src="https://github.com/xiv3r/termux-proot-distro/blob/main/installer/kali-proot.png">
+<p align="center"><img src="https://github.com/xiv3r/termux-proot-distro/blob/main/installer/kali-proot.png">
 
 <br>
 
