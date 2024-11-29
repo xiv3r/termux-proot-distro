@@ -67,4 +67,9 @@ termux-setup-storage && apt update && apt upgrade -y && apt install proot-distro
 ```sh
 wget -O /etc/bash.bashrc https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/blackarch.bashrc && source /etc/bash.bashrc && wget https://blackarch.org/strap.sh && chmod +x strap.sh && sh strap.sh && pacman -Syyu
 ```
+### Add custom terminal name
+> - replace `xiver` to your name
+```sh
+sed -i 's/user=blackarch/user=xiv3r/' /etc/bash.bashrc && source /etc/bash.bashrc
+```
 <p align="center"><img src="https://github.com/xiv3r/termux-proot-distro/blob/main/config/blarch.png">
