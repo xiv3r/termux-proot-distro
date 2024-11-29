@@ -7,12 +7,17 @@
 # Install Kali Minimal
 > - proot-distro login kali-minimal
 > - execute the command
-### Auto Install
+## Auto Install
 ```sh
 termux-setup-storage && apt update && apt upgrade -y && apt install proot-distro wget -y && echo "clear && proot-distro login kali-minimal" >> $PREFIX/etc/bash.bashrc && wget -qO- https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/installer.sh | sh && proot-distro install kali-minimal && proot-distro login kali-minimal
 ```
 ```sh
 apt update && apt upgrade -y && apt install wget -y && wget -O .zshrc https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/.zshrc && source .zshrc
+```
+### Add custom terminal name
+> - replace `xiver` to your name
+```sh
+sed -i 's/user=kali/user=xiv3r/' .zshrc && source .zshrc
 ```
 <p align="center"><img src="https://github.com/xiv3r/termux-proot-distro/blob/main/config/kalimin.png">
 <br>
