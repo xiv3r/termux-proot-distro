@@ -1,5 +1,5 @@
 DISTRO_NAME="BlackArch"
-TARBALL_URL['aarch64']="http://fl.us.mirror.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz"
+TARBALL_URL['aarch64']="https://github.com/xiv3r/termux-proot-distro/releases/download/rootfs/archlinux-aarch64-pd-v4.6.0.tar.xz"
 TARBALL_SHA256['aarch64']="43767c1fe8abaddff240395b75aea03919b7d33ab1bbca3ae0c2f3839527ad19"
 
 distro_setup() {
