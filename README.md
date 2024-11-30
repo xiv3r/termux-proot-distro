@@ -36,7 +36,12 @@ sed -i 's/user=kali/user=xiv3r/' .zshrc && source .zshrc
 <p align="center"><img src="https://github.com/xiv3r/termux-proot-distro/blob/main/config/kalimin.png">
 <br>
 <br>
-
+ 
+- Uninstall
+```
+sed -i 's/&& proot-distro login kali-minimal/ /' $PREFIX/etc/bash.bashrc && proot-distro remove kali-minimal
+```
+ 
 # Install Kali Nano
 > - proot-distro login kali-nano
 > - execute the command
@@ -54,7 +59,13 @@ sed -i 's/user=kali/user=xiv3r/' /etc/bash.bashrc && source /etc/bash.bashrc
 <p align="center"><img src="https://github.com/xiv3r/termux-proot-distro/blob/main/config/kalinh.png">
 <br>
 <br>
-  
+
+- Uninstall
+```
+sed -i 's/&& proot-distro login kali-nano/ /' $PREFIX/etc/bash.bashrc && proot-distro remove kali-nano
+
+```
+
 # Install Kali in Debian
 > - proot-distro login debian
 > - execute the command below
@@ -73,6 +84,10 @@ sed -i 's/user=kali/user=xiv3r/' /etc/bash.bashrc && source /etc/bash.bashrc
 <br>
 <br>
 
+- Uninstall
+```
+sed -i 's/&& proot-distro login debian/ /' $PREFIX/etc/bash.bashrc && proot-distro remove debian
+```
 # Install BlackArch
 > - proot-distro login balckarch
 > - execute the command
@@ -88,3 +103,8 @@ wget -O /etc/bash.bashrc https://raw.githubusercontent.com/xiv3r/termux-proot-di
 sed -i 's/user=blackarch/user=xiv3r/' /etc/bash.bashrc && source /etc/bash.bashrc
 ```
 <p align="center"><img src="https://github.com/xiv3r/termux-proot-distro/blob/main/config/blarch.png">
+
+- Uninstall
+```
+sed -i 's/&& proot-distro login blackarch/ /' $PREFIX/etc/bash.bashrc && proot-distro remove blackarch
+```
