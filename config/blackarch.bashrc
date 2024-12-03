@@ -8,7 +8,7 @@
 
 [[ $DISPLAY ]] && shopt -s checkwinsize
 user=blackarch
-PS1='\[\033[01;31m\][\u㉿$user\]]\033[00m\] \W\$ '
+PS1='\[\033[01;31m\][\u💀$user\]]\033[00m\] \W\$\[\033[1;96m\] '
 
 case ${TERM} in
   Eterm*|alacritty*|aterm*|foot*|gnome*|konsole*|kterm*|putty*|rxvt*|tmux*|xterm*)
