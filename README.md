@@ -87,7 +87,7 @@ sed -i 's/&& proot-distro login kali-nano/ /' $PREFIX/etc/bash.bashrc && proot-d
 termux-setup-storage && apt update && apt full-upgrade -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" -y && apt install proot-distro wget -y && echo "clear && proot-distro login debian" >> $PREFIX/etc/bash.bashrc && proot-distro install debian && proot-distro login debian 
 ```
 ```sh
-apt update && apt install wget -y && wget -O /etc/bash.bashrc https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/kali-deb.bashrc && source /etc/bash.bashrc && wget -qO- https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/installer/kali-deb.sh | sh && apt full-upgrade -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" -y
+apt update && apt install wget -y && wget -O /etc/bash.bashrc https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/kali-deb.bashrc && source /etc/bash.bashrc && wget -qO- https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/installer/kali-deb.sh | sh && apt full-upgrade -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" -y && apt --fix-broken install && dpkg --configure -a && apt update && apt full-upgrade -y
 ```
 ### Add custom terminal name
 > - replace `xiver` to your name
