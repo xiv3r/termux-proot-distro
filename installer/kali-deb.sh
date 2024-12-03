@@ -16,8 +16,3 @@ deb [signed-by="/usr/share/keyrings/kali-archive-keyring.gpg"] https://kali.down
 ###
 apt update && apt full-upgrade -y
 ###
-apt --fix-broken install
-###
-dpkg --configure -a
-###
-source /root/.bashrc
