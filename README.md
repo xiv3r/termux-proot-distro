@@ -1,6 +1,3 @@
-<p align="center"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fxiv3r%2Ftermux-proot-distro&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=%F0%9F%91%81%EF%B8%8F+++%F0%9F%91%81%EF%B8%8F&edge_flat=false">
-
-
 <h1 align="center">Kali and BlackArch in Proot-Distro </h1>
 
 <h1 align="center">
@@ -26,15 +23,15 @@
 # Install Kali Minimal
 > - proot-distro login kali-minimal
 > - execute the command
-```sh
+```
 termux-setup-storage && apt update && apt full-upgrade -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" -y && apt install proot-distro wget -y && echo "clear && proot-distro login kali-minimal" >> $PREFIX/etc/bash.bashrc && wget -qO- https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/installer.sh | sh && proot-distro install kali-minimal && proot-distro login kali-minimal
 ```
-```sh
+```
 apt update && install wget -y && wget -O .zshrc https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/.zshrc && source .zshrc && apt full-upgrade -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" -y
 ```
 ### Add custom terminal name
 > - replace `xiver` to your name
-```sh
+```
 sed -i 's/user=kali/user=xiv3r/' .zshrc && source .zshrc
 ```
 <p align="center"><img src="https://github.com/xiv3r/termux-proot-distro/blob/main/config/kalimin.png">
@@ -83,10 +80,10 @@ sed -i 's/&& proot-distro login kali-nano/ /' $PREFIX/etc/bash.bashrc && proot-d
 # Install Kali in Debian
 > - proot-distro login debian
 > - execute the command below
-```sh
+```
 termux-setup-storage && apt update && apt full-upgrade -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" -y && apt install proot-distro wget -y && echo "clear && proot-distro login debian" >> $PREFIX/etc/bash.bashrc && proot-distro install debian && proot-distro login debian 
 ```
-```sh
+```
 apt update && apt install wget -y && wget -O /etc/bash.bashrc https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/config/kali-deb.bashrc && source /etc/bash.bashrc && wget -qO- https://raw.githubusercontent.com/xiv3r/termux-proot-distro/refs/heads/main/installer/kali-deb.sh | sh && apt full-upgrade -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" -y && apt --fix-broken install && dpkg --configure -a && apt update && apt full-upgrade -y
 ```
 ### Add custom terminal name
